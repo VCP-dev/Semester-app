@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1072235138630",
+    "firebase_url": "https://thsemapp.firebaseio.com",
+    "project_id": "thsemapp",
+    "storage_bucket": "thsemapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072235138630:android:6d332ebbeda16c2b9bc447",
+        "android_client_info": {
+          "package_name": "com.example.a4thsemapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072235138630-23fkrap4m4deeabnpemhomhe9g6ividu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a4thsemapp",
+            "certificate_hash": "3397d6e0565f3671f62075e4faccda5418d4c47a"
+          }
+        },
+        {
+          "client_id": "1072235138630-84ke61jtlogmvrn5rg3n6ek8ahsitn9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5PXfiIIZohBwaIH1Seh5E-BD_J2-GhYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072235138630-84ke61jtlogmvrn5rg3n6ek8ahsitn9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

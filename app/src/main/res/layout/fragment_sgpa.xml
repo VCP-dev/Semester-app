@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:id="@+id/line1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:text="Engineering math IV:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:layout_alignParentEnd="true"
+            android:id="@+id/spinnermath"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:text="Finite automata and formal languages:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinnerfin"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:text="Design and analysis of algorithms:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinnerdes"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:text="Microprocessors and controllers:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinnermicro"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:text="Operating Systems:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:layout_alignParentEnd="true"
+            android:id="@+id/spinneros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:text="Software Engineering:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinnersoft"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:text="Constitution of India ,professional Ethics:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinnerconst"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:text="Microprocessor lab:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinnermicrolab"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:text="Design and Analysis of Algorithm lab:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinnerdesanallab"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/sgpacalc"
+        android:layout_marginTop="2dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:text="calculate"
+        android:background="@drawable/button_background"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+</LinearLayout>

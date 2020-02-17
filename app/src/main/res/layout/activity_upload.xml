@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+
+    <Button
+        android:layout_marginTop="140dp"
+        android:id="@+id/selectfile"
+        android:text="Select file"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/subject"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textAlignment="center"
+        android:text="No file is selected"
+        android:id="@+id/notification"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:id="@+id/uploadfile"
+        android:text="Upload file"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/button_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
